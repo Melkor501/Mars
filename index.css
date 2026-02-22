@@ -1,0 +1,22 @@
+.skliro {
+    background-color: #2b2929;
+    color: white;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    border: 4px red solid;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.skliro:hover {
+    background-color: red;
+    transform: scale(1.05)
+}
+
+.skliro:active {
+    transform: scale(0.95)
+}
